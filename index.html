@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Prueba de Plugin</title>
+	<style>
+		.wrapper{
+			margin: 0 auto;
+			width: 1024px;
+		}
+		.box{
+			background-color: #909090;
+			height: 500px;
+			margin: 0 auto 50px auto;
+			padding: 50px 0;
+			text-align: center;
+			width: 400px;
+		}
+		.box p{
+			border: 1px dotted #fff;
+			color: #fff;
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 20px;
+			padding: 5px 0;
+			text-transform: uppercase;
+		}
+	</style>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="js/fadeInScroll.jQuery.js"></script>
+	<script>
+		$(function(){
+			$('.box').fadeInScroll();
+		});
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="box">
+			<p>Item 1</p>
+		</div>
+		<div class="box">
+			<p>Item 2</p>
+		</div>
+		<div class="box">
+			<p>Item 3</p>
+		</div>
+		<div class="box">
+			<p>Item 4</p>
+		</div>
+		<div class="box">
+			<p>Item 5</p>
+		</div>
+		<div class="box">
+			<p>Item 6</p>
+		</div>
+		<div class="box">
+			<p>Item 7</p>
+		</div>
+	</div><!-- END .wrapper -->
+</body>
+</html>
